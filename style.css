@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.outerBox {
+  background-color: rgb(255, 235, 211);
+  height: 100%;
+}
+.innerBox {
+  position: relative;
+  top: 100px;
+
+  margin: auto;
+  width: 800px;
+  height: auto;
+  border-radius: 30px;
+  background-color: white;
+  padding: 50px;
+}
+.imageBox {
+  background-image: url(om1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 700px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+h1 {
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+li {
+  font-size: 1.2em;
+  padding-left: 20px;
+}
+li::marker {
+  color: #71047d;
+  line-height: 0.2em;
+}
+.timeBox {
+  background-color: #ffebfa;
+  border-radius: 20px;
+  padding: 30px;
+  line-height: 2.5em;
+}
+.timeBox ul li {
+  list-style-type: disc;
+  margin-left: 25px;
+}
+h4 {
+  font-size: 1.6em;
+  color: #71047d;
+  font-weight: bold;
+}
+.ingredients {
+  margin: 30px 0;
+  border-bottom: 1px solid #c5c5c5;
+  padding-bottom: 30px;
+}
+h2 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  color: #80420f;
+}
+.ingredients ul li span {
+  font-size: 1.5em;
+  line-height: 2.1em;
+}
+.ingredients ul li {
+  margin-left: 25px;
+  list-style-type: square;
+  font-size: 0.8em;
+}
+
+.instructions {
+  margin: 30px 0;
+  border-bottom: 1px solid #c5c5c5;
+  padding-bottom: 30px;
+}
+
+.instructions li::marker {
+  color: #80420f;
+  font-weight: 700;
+}
+.instructions ol li {
+  line-height: 1.3em;
+  margin-left: 25px;
+  padding-bottom: 10px;
+}
